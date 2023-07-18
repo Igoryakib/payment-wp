@@ -10,7 +10,6 @@ const cardCvc = document?.querySelector("#cvc");
 const cardDate = document?.querySelector("#expiry-date");
 const payButton = document?.querySelector("#payButton");
 const form = document?.querySelector("#form");
-console.log(form)
 
 paypalButton?.addEventListener("click", () => {
   cardSection.classList.add("hidden");
